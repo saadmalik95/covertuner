@@ -10,7 +10,7 @@ with open('textForCovertuner.txt', 'r') as file:
     data = file.read().replace('\n', '')
 
 main = readability(data)
-
+#check
 def run():
     print("\n")
     print('Your results are below. Thank you for using CoverTuner')
